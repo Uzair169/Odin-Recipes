@@ -1,0 +1,31 @@
+body {
+    background-attachment: fixed;
+    background-image: url(../Images/BackgroundImage.jpeg);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+h1.main {
+    text-align: center;
+}
+p {
+    font-size: large;
+}
+.container {
+    width: 800px;
+    height: 800px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(25px);
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.unorderedList,
+.orderedList {
+    font-size: large;
+}
+.Steps {
+    font-weight: bold;
+}
